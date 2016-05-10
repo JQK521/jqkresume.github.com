@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Swiper demo</title>
+    
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    position: relative;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background:url(img/22037_ced60360f738546b92c4a0da88659a78.png) no-repeat center center;background-size: cover;" >
+     
+            </div>
+            <div class="swiper-slide">
+             <img src="img/22037_0d638b4e3d7324dbd8c7c61800ced6d5.png" id="page1-1" / >
+    <img src="img/22037_c6362482a4f35c6e2866a8666254f565.png" id="page1-2" />
+    <img src="img/22037_4e3bd520b7f41cb5a765d4c8307e5342.png" id="page1-3"/>
+    <div id="page1-4">
+    	<p>姓名：周治全</p>
+    	<p>学历：本科</p>
+    	<p>专业：土木工程</p>
+    	<p>毕业院校：上海理工大学</p>
+    	<p>籍贯：江西</p>
+    </div>
+            </div>
+            <div class="swiper-slide" style="background:url(img/22_0d54fb38fa9e2be5008f2fa2005c7d64.jpg) no-repeat center center;background-size: cover;">
+          <img src="img/22_db1af92636d0c7e672168421ae073413.png" id="page2-1" class="rote11"/>
+ <img src="img/22_09e4b8c17d797aeae739b6edb1a914b5.png" id="page2-2" class="pager3-moveTobottom"/>
+ <div id="page2-3" class="page3-moveFromLeft">
+ 	<p>2012/06</p>
+ 	<p>深圳市某某科技有限公司</p>
+ 	<p>担任Web前端工程师</p>
+ </div>
+ <div id="page2-4" class="page4-moveFromRight">
+ 	<p>2012/06</p>
+ 	<p>深圳市某某科技有限公司</p>
+ 	<p>担任Web前端工程师</p>
+ </div>
+  <div id="page2-5" class="page4-moveFromLeft">
+ 	<p>2012/06</p>
+ 	<p>深圳市某某科技有限公司</p>
+ 	<p>担任Web前端工程师</p>
+ </div>
+ 
+ 
+            </div>
+            
+            <div class="swiper-slide" style="background-color: aqua;">
+           <div id="page3-2">部分作品</div>
+            	<img src="img/22_94aaf0d8c082a0310f66bc69eeb80612.png" id="page3-1"/>
+            <img src="img/22_1eb87e806a6744d3b720bcf2f3fb44b8.png" id="page3-3"/>	
+            </div>
+            <div class="swiper-slide" style="background:url(img/22_1c4ca0c331699629f793b13d1b55896c.jpg) no-repeat center center;background-size: cover;">
+            	<div class="font">技能</div>
+        <img src="img/22_8d9e02f22e43769e8b37f67544f24d1e.png" id="page4-1" class="page6-move1"/>    	
+        <img src="img/22_6d30eca47d2546e5ba958d360fa900da.png" id="page4-2" class="page6-move2"/>
+        <img src="img/22_644b7be277b27bf55ace7b6c3880d301.png" id="page4-3" class="page6-move3"/>
+        <img src="img/22_5fd4b088c44c4663c434daacd63c9266.png" id="page4-4" class="page6-move4"/>
+  <img src="img/22_1836837920b62c5ff07afd7ff62f5bd6.png" id="page4-5" class="page6-move5"/>
+  <img src="img/22_e6d625398b97e2061dc12b41e537a79c.png" id="page4-6" class="page6-move6"/>
+  <img src="img/22_69ec0b4dcba5ec506bcce0903eed2aa0.png" id="page4-7" class="page6-move7"/>
+  <img src="img/22_2176e24cea739458a3ee9a02e7e3f72e.png" id="page4-8" class="page6-move8"/>
+            	
+            </div>
+           <div class="swiper-slide" style="background:url(img/4736_6cf688fc187c8400c5e9cccf65797cf4.jpg) no-repeat center center;background-size: cover;">
+   <div class="pic">图标设计</div>
+    <img src="img/4736_80be87dfea50aaa6648dfd026b557285.png" style="width: 90%;position: absolute;top: 13%;left: 3%;" swiper-animate-effect="slideInDown" swiper-animate-duration="1s" class="ani"/>       	
+<img src="img/4736_8505c766773d5231c53434d353ab0151.png" style="width: 90%;position: absolute;top: 23%;left: 3%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1s" class="ani"/> 
+<img src="img/4736_d57fba167eb1ddc7733b6e1497fb22d4.png" style="width: 90%;position: absolute;top: 35%;left: 3%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2s" class="ani"/> 
+<div class="pic1">网页设计</div>
+<img src="img/4736_eb3f0cc1f6f8637e0d0cc6401176a7b6.png" style="width: 60%;position: absolute;left: 3%;top:50%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="3s" class="ani"/>
+<img src="img/4736_27e9b3618cf4ec7c61e9ac83a1b00897.png" style="width: 15%;position: absolute;left: 75%;top:50%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="3s" class="ani"/>
+<img src="img/4736_aabf4fe23ee4bf94f204fdb51ea61a34.png" style="width: 60%;position: absolute;left: 3%;top:70%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="4s" class="ani"/>
+           </div>
+              <div class="swiper-slide" style="background:url(img/22_ed0297024790b5af2034d3b65a7281ca.jpg) no-repeat center center;background-size: cover;">
+              <img src="img/22_070e4c50703924257d1a5750d1af405d.png" id="page5-1" class="page7-move1"/>	
+              	
+      <img src="img/22_db1af92636d0c7e672168421ae073413.png" id="page5-2" class="rote12"/>         	
+          <div style="color: white;text-align: center;position: absolute;left: 25%;top: 40%;font-size: 0.4rem;font-family: "微软雅黑";" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s" class="ani">
+          	<p>怎么样？</p>
+          	<p>对我还满意吗？</p>
+          	<p>寻找行业里的“bole”</p>
+          </div>    	
+   <img src="img/22_44e6262d343ee1e7d1c6214f7ea56159.png" id="page5-3" class="page7-move2"/>           	
+              	
+              	
+              	
+              </div>
+        </div>
+        <!-- Add Pagination -->
+        <!--<div class="swiper-pagination"></div>-->
+       <div id="audiocontainer"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    
+    <script src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/swiper.animate1.0.2.min.js" ></script>
+   <!-- <script src="js/swiper.animate-twice.min.js"></script>-->
+    <script type="text/javascript" src="js/playsound.js" ></script>
+     <script type="text/javascript">
+		document.onreadystatechange = loading; 
+		function loading(){
+			if(document.readyState == "complete")
+			{ 
+				playbksound();
+	
+				
+			}
+		}
+		
+		</script>
+
+    <!-- Initialize Swiper -->
+    <script src="js/demo.js">
+   
+    </script>
+</body>
+</html>
